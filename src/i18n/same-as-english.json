@@ -252,7 +252,17 @@
     "OPT-IN",
     "{minutes} min",
     "1 min/s",
-    "Status"
+    "Status",
+    "Wikipedia",
+    "Wikidata",
+    "Website",
+    "Mach",
+    "Squawk {code}",
+    "Signal",
+    "Magnitude",
+    "Live · {age}",
+    "{n} m",
+    "{n} km"
   ],
   "es": [
     "1 min/s",
@@ -417,7 +427,16 @@
     "NORAD: {id}",
     "Regional",
     "{datasets} · {tiles} · {packs}",
-    "VIRTUAL"
+    "VIRTUAL",
+    "Wikipedia",
+    "Wikidata",
+    "Mach",
+    "Squawk {code}",
+    "{n} acres",
+    "Inspector",
+    "{n} m",
+    "{n} km",
+    "Error"
   ],
   "fr": [
     "1 min/s",
@@ -641,7 +660,16 @@
     "Orthophoto",
     "Oblique",
     "Type",
-    "{range} NM"
+    "{range} NM",
+    "Wikidata",
+    "Mach",
+    "Squawk {code}",
+    "Signal",
+    "Magnitude",
+    "{n} acres",
+    "Altitude",
+    "{n} m",
+    "{n} km"
   ],
   "it": [
     "1 min/s",
@@ -848,7 +876,13 @@
     "NORAD: {id}",
     "DATASET",
     "{count} datasets",
-    "ZOOM"
+    "ZOOM",
+    "Wikipedia",
+    "Wikidata",
+    "Mach",
+    "Squawk {code}",
+    "{n} m",
+    "{n} km"
   ],
   "ja": [
     "1090 MHz",
@@ -914,7 +948,9 @@
     "▲ {frp} MW",
     "ICAO: {id}",
     "MMSI: {id}",
-    "NORAD: {id}"
+    "NORAD: {id}",
+    "{n} m",
+    "{n} km"
   ],
   "pt": [
     "1 min/s",
@@ -1079,7 +1115,15 @@
     "MMSI: {id}",
     "NORAD: {id}",
     "Regional",
-    "VIRTUAL"
+    "VIRTUAL",
+    "Wikidata",
+    "Mach",
+    "Squawk {code}",
+    "Magnitude",
+    "{n} acres",
+    "Altitude",
+    "{n} m",
+    "{n} km"
   ],
   "ru": [
     "1900–1945",
@@ -1277,7 +1321,16 @@
     "ICAO: {id}",
     "NORAD: {id}",
     "MMSI: {id}",
-    "Status"
+    "Status",
+    "Wikipedia",
+    "Wikidata",
+    "Mach",
+    "Squawk {code}",
+    "Signal",
+    "{n} acres",
+    "Live · {age}",
+    "{n} m",
+    "{n} km"
   ],
   "uk": [
     "1900–1945",
@@ -1379,7 +1432,9 @@
     "CC BY 4.0",
     "acartia.io ↗",
     "iNaturalist ↗",
-    "iNaturalist"
+    "iNaturalist",
+    "{n} m",
+    "{n} km"
   ],
   "zh-Hant": [
     "1090 MHz",
@@ -1450,7 +1505,9 @@
     "CC BY 4.0",
     "acartia.io ↗",
     "iNaturalist ↗",
-    "iNaturalist"
+    "iNaturalist",
+    "{n} m",
+    "{n} km"
   ],
   "he": [
     "{speed} kn",
@@ -1550,6 +1607,8 @@
     "Ironbow",
     "ICAO: {id}",
     "MMSI: {id}",
-    "NORAD: {id}"
+    "NORAD: {id}",
+    "{n} m",
+    "{n} km"
   ]
 }

@@ -7765,7 +7765,11 @@
       "src/data/firmsIntensity.js",
       "src/data/firmsAdapt.js",
       "src/data/rioRouteNames.js",
-      "src/data/satelliteClassMask.js"
+      "src/data/satelliteClassMask.js",
+      "src/layers/chokepoints/flows.js",
+      "src/layers/chokepoints/records.js",
+      "src/layers/chokepoints/model.js",
+      "src/tools/queries/markets.js"
     ],
     "external": ["satellite.js"]
   },
@@ -7865,7 +7869,9 @@
       "src/data/ucsSatellites.js",
       "src/data/imagingSensors.js",
       "src/data/planespottersPhoto.js",
-      "src/data/openVesselPhoto.js"
+      "src/data/openVesselPhoto.js",
+      "src/layers/chokepoints/records.js",
+      "src/layers/chokepoints/source.js"
     ],
     "external": ["@mapbox/vector-tile", "pbf"]
   },

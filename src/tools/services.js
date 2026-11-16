@@ -12,6 +12,7 @@ import { createAlprTileSource } from '../layers/alpr/source.js';
 import { GBFS_CITY_REGISTRY } from '../layers/bikeshare/registry.js';
 import { createBikeshareSource } from '../layers/bikeshare/source.js';
 import { createCctvSource } from '../layers/cctv/source.js';
+import { createChokepointsSource } from '../layers/chokepoints/source.js';
 import { createCycloneSource } from '../layers/cyclones/source.js';
 import { createUsgsEarthquakeSource } from '../layers/earthquakes/source.js';
 import { createFirmsSource } from '../layers/firms/source.js';
@@ -81,6 +82,7 @@ export function createToolServices({ fetchImpl, appUrl, panelKey }) {
     summary: requests.summary,
     features: requests.features,
     cyclones: createCycloneSource({ fetchImpl }),
+    chokepoints: createChokepointsSource({ fetchImpl }),
     perimeters: createWfigsPerimeterSource({ fetchImpl }),
     installations: createInstallationSource({
       fetchImpl,

@@ -45,6 +45,8 @@ export const TOOL_SURFACES = Object.freeze({
   get_regional_brief: mcpOff,
   find_radio_stations: mcpOff,
   get_bike_share: mcpOff,
+  // A market question for chat assistants; the voice prompt has no room.
+  get_chokepoints: voiceOff,
   get_transit_vehicles: mcpOff,
 });
 

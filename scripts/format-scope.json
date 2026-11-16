@@ -1554,5 +1554,9 @@
   "src/ui/layerFinder.test.mjs",
   "src/data/wikidataCities.js",
   "src/data/wikidataCities.test.mjs",
-  "scripts/build-wikidata-cities.mjs"
+  "scripts/build-wikidata-cities.mjs",
+  "src/layers/chokepoints/model.test.mjs",
+  "src/layers/chokepoints/records.test.mjs",
+  "src/layers/chokepoints/cards.test.mjs",
+  "src/data/chokepointsProxy.test.mjs"
 ]

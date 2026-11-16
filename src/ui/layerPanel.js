@@ -43,6 +43,11 @@ function lifecycleStateLabel(lifecycleState) {
 
 // Presentation order is independent of catalog registration and startup order.
 const PANEL_GROUPS = [
+  // This fork's finance layers: world events as they reach markets.
+  {
+    label: msg('Markets'),
+    ids: ['chokepoints'],
+  },
   {
     label: msg('Movement'),
     ids: [

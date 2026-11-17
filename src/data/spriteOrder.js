@@ -10,6 +10,8 @@ export const SPRITE_LAYER_ORDER = Object.freeze([
   'rail',
   'directions',
   'ais',
+  // Over the ships that pass through them, under aircraft.
+  'chokepoints',
   'military',
   'flights',
 ]);

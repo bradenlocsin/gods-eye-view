@@ -614,6 +614,12 @@ export const DATA_CREDITS = [
       '<a href="https://worldnewsapi.com/" target="_blank" rel="noopener">World News API</a>',
   },
   {
+    key: 'chokepoints',
+    html:
+      'Chokepoint transits: <a href="https://portwatch.imf.org/" target="_blank" rel="noopener">IMF PortWatch</a> ' +
+      '(International Monetary Fund and University of Oxford), estimated from ship AIS signals; not official statistics',
+  },
+  {
     key: 'shipwrecks',
     html:
       'Shipwrecks (Europe): <a href="https://emodnet.ec.europa.eu/en/human-activities" target="_blank" rel="noopener">EMODnet Human Activities</a> ' +
